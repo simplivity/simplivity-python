@@ -10,10 +10,15 @@ Refer SimpliVity REST API doc for the resource endpoints documentation [HPE Simp
 |<sub>/backups	</sub>                                                                    |GET       |
 |<sub>/backups/delete  </sub>                                                             |POST      |
 |<sub>/backups/{bkpId}  </sub>                                                            |DELETE    |
+<<<<<<< HEAD
 |<sub>/backups/{bkpId}/lock</sub>                                                            |POST    |
 |<sub>/backups/{bkpId}/restore  </sub>                                                    |POST      |
 |     **Cluster Groups**
 |<sub>/cluster_groups  </sub>                                                             |GET       |
+=======
+|     **Cluster Groups**
+|<sub>/cluster_groups  </sub>                                                             |POST      |
+>>>>>>> add endpoint support for cluster_groups <POST>
 |     **Datastores**
 |<sub>/datastores	</sub>                                                                |GET       |
 |<sub>/datastores	</sub>                                                                |POST       |
