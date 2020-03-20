@@ -203,6 +203,7 @@ class PoliciesTest(unittest.TestCase):
         mock_post.assert_called_once_with('/policies/policy12345/rules?replace_all_rules=False', [rules],
                                           custom_headers=None)
 
+<<<<<<< HEAD
     @mock.patch.object(Connection, "post")
     @mock.patch.object(Connection, "get")
     def test_create_policy_with_flags(self, mock_get, mock_post):
@@ -293,6 +294,8 @@ class PoliciesTest(unittest.TestCase):
                                           {'name': policy_data['name']},
                                           custom_headers=None)
 
+=======
+>>>>>>> Add support for the creating rules in the Simplivity policy
 
 if __name__ == '__main__':
     unittest.main()

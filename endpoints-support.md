@@ -44,10 +44,14 @@ Refer SimpliVity REST API doc for the resource endpoints documentation [HPE Simp
 =======
 >>>>>>> Add support for the create policy
 |<sub>/policies/{policyId} </sub>                                                         |DELETE    |
+<<<<<<< HEAD
 |<sub>/policies/{policyId}/rename</sub>                                                   |POST      |
 |<sub>/policies/{policyId}/rules </sub>                                                   |POST      |
 |<sub>/policies/{policyId}/rules/{ruleId} </sub>                                          |GET       |
 |<sub>/policies/{policyId}/rules/{ruleId} </sub>                                          |DELETE    |
+=======
+|<sub>/policies/{policyId}/rules </sub>                                                   |POST      |
+>>>>>>> Add support for the creating rules in the Simplivity policy
 |     **Virtual Machines**
 |<sub>/virtual_machines	</sub>                                                            |GET       |
 |<sub>/virtual_machines/set_policy	</sub>                                                |POST      |

@@ -23,6 +23,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - endpoint support for /policies <POST>
     - endpoint support for /policies/{policyId} <DELETE>
     - missing ovc client host unit tests to improve code coverage
+    - endpoint support for /policies/{policyId}/rules <POST>
     - pull request template to facilitate pull requests
     - query string support for post operations
 
