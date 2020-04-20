@@ -43,12 +43,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - missing ovc client host unit tests to improve code coverage
     - pull request template to facilitate pull requests
     - query string support for post operations
+    - single replica datastore support
 
 ### Changed
     - address unittest.assertequals deprecation warning within unit test cases
     - default accept header to application/json
     - default value assigned to custom_header parameter 
     - leverage pprint in the ./examples/datastores.py to improve the overall readability of the output
+    - made custom_header parameter optional for post, put and delete operations. default value 'None'
     - policy test cases to improve the existing code coverage metrics
     - reformat existing docstrings to conform to Sphinx documentation requirements
     - rename the unit test filenames to reflect which objects were being targeted
