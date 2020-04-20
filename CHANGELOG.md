@@ -26,6 +26,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - endpoint support for /policies/{policyId}/rules <POST>
     - pull request template to facilitate pull requests
     - query string support for post operations
+    - single replica datastore support
 
 ### Changed
     - address unittest.assertequals deprecation warning within unit test cases
