@@ -15,10 +15,14 @@ Refer SimpliVity REST API doc for the resource endpoints documentation [HPE Simp
 |<sub>/backups/{bkpId}/restore  </sub>                                                    |POST      |
 |     **Cluster Groups**
 |<sub>/cluster_groups  </sub>                                                             |GET       |
+<<<<<<< HEAD
 =======
 |     **Cluster Groups**
 |<sub>/cluster_groups  </sub>                                                             |POST      |
 >>>>>>> add endpoint support for cluster_groups <POST>
+=======
+|<sub>/cluster_groups/{clusterGroupId}/rename  </sub>                                     |POST      |
+>>>>>>> Add support for Cluster Group rename
 |     **Datastores**
 |<sub>/datastores	</sub>                                                                |GET       |
 |<sub>/datastores	</sub>                                                                |POST       |
